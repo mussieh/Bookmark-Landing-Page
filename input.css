@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.facebook-icon:hover {
+    filter: invert(57%) sepia(32%) saturate(6082%) hue-rotate(324deg)
+        brightness(95%) contrast(106%);
+}
+
+.twitter-icon:hover {
+    filter: invert(57%) sepia(32%) saturate(6082%) hue-rotate(324deg)
+        brightness(95%) contrast(106%);
+}
+
+.mobile-bookmark-logo {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(317deg)
+        brightness(103%) contrast(102%);
+}
+
+.selected-tab {
+    border-bottom: 4px solid hsl(0, 94%, 66%);
+    transition: border 0.2s linear;
+}
+
+.selected-accordion {
+    transform: rotate(180deg);
+    filter: invert(57%) sepia(32%) saturate(6082%) hue-rotate(324deg)
+        brightness(95%) contrast(106%);
+    transition: transform 0.5s linear;
+}
+
+.not-selected-accordion {
+    transform: rotate(0deg);
+    transition: transform 0.5s linear;
+}
